@@ -17,7 +17,7 @@ class Boa_constricor(Animal_exotico):
     
     def comer_ratones(self):
         ratones  = self.get_ratones_comidos() + 1
-        if(ratones == 10):
+        if(ratones == 20):
             self.set_ratones_comidos(ratones)
         else:
             raise ValueError("Demasiados ratones")

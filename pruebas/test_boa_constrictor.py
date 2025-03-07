@@ -13,6 +13,6 @@ class test_Boa(unittest.TestCase):
         self.assertEqual(boa.calcular_flete(), 46)  
 
     def test_alimentar_boa(self):
-        boa  = Boa_constricor(edad=1, peso=23, pais_origen="Colombia", impuestos=2, nombre="Boa 1", ratones_comidos=9)
+        boa  = Boa_constricor(edad=1, peso=23, pais_origen="Colombia", impuestos=2, nombre="Boa 1", ratones_comidos=19)
         boa.comer_ratones()
-        self.assertEqual(boa.get_ratones_comidos(), 10)
+        self.assertEqual(boa.get_ratones_comidos(), 20)
